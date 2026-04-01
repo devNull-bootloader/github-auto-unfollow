@@ -3,7 +3,7 @@ name: Unfollow Non-Followers
 on:
   schedule:
     # Runs at 12:00 AM every Monday
-    - cron: '0 0 * * 3'
+    - cron: '0 12 * * 3'
 
 jobs:
   unfollow_non_followers:
