@@ -2,8 +2,8 @@ name: Unfollow Non-Followers
 
 on:
   schedule:
-    # Runs at 1 PM CEST (summer/UTC+2) / 12 PM CET (winter/UTC+1) every Wednesday
-    - cron: '0 11 * * 3'
+    # Runs at 2 PM CEST (summer/UTC+2) / 1 PM CET (winter/UTC+1) every Wednesday
+    - cron: '0 12 * * 3'
   workflow_dispatch:
 
 jobs:
