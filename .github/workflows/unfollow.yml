@@ -2,8 +2,9 @@ name: Unfollow Non-Followers
 
 on:
   schedule:
-    # Runs at 12:00 AM every Monday
-    - cron: '0 13 * * 3'
+    # Runs at 1 PM CEST (summer/UTC+2) / 12 PM CET (winter/UTC+1) every Wednesday
+    - cron: '0 11 * * 3'
+  workflow_dispatch:
 
 jobs:
   unfollow_non_followers:
